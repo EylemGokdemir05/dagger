@@ -43,6 +43,7 @@ android_library(
         "//java/dagger/hilt/android/internal",
         "//java/dagger/hilt/android/internal/builders",
         "//java/dagger/hilt/android/scopes:activity_retained_scoped",
+        "//java/dagger/hilt/android/scopes:view_model_scoped",
         "//java/dagger/hilt/internal:component_manager",
         "//java/dagger/hilt/internal:preconditions",
         "@maven//:androidx_activity_activity",

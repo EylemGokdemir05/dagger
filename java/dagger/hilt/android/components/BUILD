@@ -26,6 +26,7 @@ android_library(
         "FragmentComponent.java",
         "ServiceComponent.java",
         "ViewComponent.java",
+        "ViewModelComponent.java",
         "ViewWithFragmentComponent.java",
     ],
     deps = [
@@ -33,6 +34,7 @@ android_library(
         "//java/dagger/hilt:define_component",
         "//java/dagger/hilt/android/scopes",
         "//java/dagger/hilt/android/scopes:activity_retained_scoped",
+        "//java/dagger/hilt/android/scopes:view_model_scoped",
         "//java/dagger/hilt/components",
         "@google_bazel_common//third_party/java/jsr330_inject",
     ],
